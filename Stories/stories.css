@@ -1,0 +1,120 @@
+html, body {
+    height: 100%; 
+  }
+  
+  body {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: black;
+    background-color: black;
+  }
+  
+  .container {
+    margin: 100px 15px;
+    max-width: 670px;
+    color: white;
+    
+    @media screen and (min-width: 600px){ 
+      padding: 0 30px;
+    }
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    
+    @media screen and (min-width: 600px){ 
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  h3{
+    color: white;
+    text-align:center;
+    padding: 5%;
+}
+
+.sidebar {
+	border-right: 1px solid black;
+	padding: 1.5rem 2rem;
+  background-color: gray;
+}
+
+.sidebar__title {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.sidebar__subtitle {
+	font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sidebar__description {
+	margin: 1.75rem 0;
+	line-height: 1.5rem;
+}
+
+
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	min-height: 100vh;
+  background-color: black;
+  
+}
+
+@media (max-width: 768px) {
+	html, body {
+		font-size: 14px;
+	}
+
+	.main {
+		display: block;
+	}
+
+	.sidebar {
+		border-right: none;
+		border-bottom: 1px solid #cfd8dc;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

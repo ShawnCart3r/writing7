@@ -1,0 +1,81 @@
+html, body {
+	margin: 0;
+	font-family: 'Montserrat',sansserif;
+	font-size: 16px;
+	color: #141414;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	min-height: 100vh;
+  background-color: #141414;
+}
+
+.sidebar {
+	border-right: 1px solid #F0E8E2;
+	padding: 1.5rem 2rem;
+  background-color: #F0E8E2;
+}
+
+.sidebar__title {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.sidebar__subtitle {
+	font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sidebar__description {
+	margin: 1.75rem 0;
+	line-height: 1.5rem;
+}
+
+.projects {
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+	padding: 2rem;
+}
+
+.card {
+	margin: 1.5rem;
+	overflow: hidden;
+	border: 1px solid #F4EAE4;
+	border-radius: 5px;
+  color: #F0E8E2;
+}
+
+.card__img {
+	width: 100%;
+  height: 50%; 
+  
+}
+
+.card__copy {
+	padding: 0.5rem 1.25rem;
+}
+
+.card__copy__title {
+	font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+	html, body {
+		font-size: 14px;
+	}
+
+	.main {
+		display: block;
+	}
+
+	.sidebar {
+		border-right: none;
+		border-bottom: 1px solid #cfd8dc;
+	}
+}
